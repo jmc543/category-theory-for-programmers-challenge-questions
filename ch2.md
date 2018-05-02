@@ -1,4 +1,4 @@
-# Category Theory for Programmers Challenges
+# Category Theory for Programmers Challenge Questions
 
 ## 2. Types and Functions
 
