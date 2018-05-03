@@ -64,3 +64,20 @@ int f(int x)
     return y;
 }
 ```
+This function is not pure since the value of y is preserved on subsequent calls by the "static" keyword. Memoizing this function will not work.
+
+#### 5.  How many different functions are there from Bool to Bool ? Can you implement them all?
+Two input states times two output states equals four possibilities.
+```python
+def bool_id(b):
+    return b
+
+def bool_invert(b):
+    return not b
+
+def bool_always(b):
+    return True
+
+def bool_never(b):
+    return False
+```
