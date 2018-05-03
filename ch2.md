@@ -81,3 +81,5 @@ def bool_always(b):
 def bool_never(b):
     return False
 ```
+#### 6.  Draw a picture of a category whose only objects are the types Void , () (unit), and Bool ; with arrows corresponding to all possible functions between these types. Label the arrows with the names of the functions.
+(drawing coming later)
