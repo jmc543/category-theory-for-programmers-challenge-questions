@@ -82,6 +82,8 @@ def bool_never(b):
     return False
 ```
 #### 6.  Draw a picture of a category whose only objects are the types Void , () (unit), and Bool ; with arrows corresponding to all possible functions between these types. Label the arrows with the names of the functions.
-![graphviz_drawing](misc/ch2question6graph.png]
+![](misc/ch2question6graph.png)
+
 Graphviz was overlapping the four self-loops on Bool, so I just labeled one self-loop with four names. They are really separate.
+
 [(link to the graphviz code)](misc/ch2question6.gv)
