@@ -1,0 +1,14 @@
+digraph {
+
+Void -> Void [label="id"]
+Void -> Unit [label="absurd"]
+Void -> Bool [label="absurd"]
+
+Unit -> Unit [label="id"]
+Unit -> Bool [label="return True"]
+Unit -> Bool [label="return False"]
+
+Bool -> Bool [label="id, always, never, invert"]
+Bool -> Unit [label="return ()"]
+
+}
